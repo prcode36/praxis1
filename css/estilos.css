@@ -1,0 +1,149 @@
+/* HEADER*/
+/*agrega el espaciado de abajo*/
+.navbar{
+	
+	margin-bottom: 0;
+	
+	
+}
+
+/*solamente para este jumbotron*/
+.jumbotron-cd{
+	background: #8ad2ad;
+	color: aliceblue;
+	padding: 20px 0;
+	
+}
+
+.color-ir{
+ color: darkolivegreen;
+     
+}
+
+.top{
+     
+     padding: 20px;
+     font-weight: bold;
+     font-style: italic;
+}
+
+.l{
+     margin-left: 15px;
+}
+
+.sombra{
+     background: #FEFFF5;
+}
+
+
+/*  POST */
+
+.main {	
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.post{
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #999;
+}
+
+.post .post-title a{
+	color:#333;
+	
+}
+
+.post .thumb{
+	margin-right: 10px;
+	width: 40%;
+}
+
+
+.post .thumb img{
+	width: 100%;
+}
+
+.post .contenedor{
+	width: 100%;
+}
+
+/*MEDIA QUERIE*/
+
+
+@media screen and(max-width: 768px){
+	
+	.post .thumb{
+		
+		width: 100%;
+		margin-bottom:20px ;
+		margin-right:0 ;
+	}
+	
+}
+
+a.hr{
+     font-weight: bold;
+    text-decoration: none;
+      color: darkslateblue;
+}
+
+a.hr:hover{
+     color: darkslateblue;
+}
+
+
+@media only screen and (max-width:473px){
+     
+
+
+     
+     div>a.l{
+          
+   
+          font-size: 8px;
+     }
+     
+      div>a.ll{
+          
+        
+          font-size: 8px;
+     }
+     
+     p>em{
+          font-size: 14px;
+     }
+     h1.titulo-blog>em{
+          font-size: 30px;
+     }
+     
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
